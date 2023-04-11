@@ -1,0 +1,59 @@
+.body {
+    width: 80%;
+    height: 70vh;
+    background-image: linear-gradient(#FB5B7B, #FFCB65);
+    background-repeat: no-repeat;
+    margin: auto;
+    
+}
+.child {
+    width: 80%;
+    margin: auto;
+}
+.input {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 15px;
+    font-style: italic;
+    outline: none;
+}
+.container {
+
+}
+.first-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 10px;
+}
+.left-profile {
+    width: 50%;
+    height: 70px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.right-profile {
+    width: 50%;
+    height: 70px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.profile1 {
+    width: 10%;
+    height: auto;
+    margin: 10px;
+}
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    color: rgb(98, 96, 96);
+    font-size: 0.8rem;
+    text-align: left;
+}
