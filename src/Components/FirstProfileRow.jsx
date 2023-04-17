@@ -9,15 +9,20 @@ const FirstProfileRow = ({data}) => {
        return (
            
            <div className='first-row'>
-           <div className="left-profile">
+             <div className="left-profile">
                <img className='profile1' src={item.picture} alt="profile picture" />
-               <ul className='list'>
-                   <li className='first-child'>{item.id}</li>
-                   <li className='first-child'>{item.title}</li>
-                   <li className='first-child'>{item.firstName}</li>
-                   <li className='first-child'>{item.lastName}</li>
-               </ul>
+               <span className="user-data">
+                  <p className='user-id'>{item.id}</p>
+                  <ul className='list'>
+                      <li className='first-child'>{item.title}</li>
+                      <li className='first-child'>{item.firstName}</li>
+                      <li className='first-child'>{item.lastName}</li>
+                  </ul>
+               </span>
+              
            </div>
+            
+          
            
        </div>
       
