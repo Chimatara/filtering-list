@@ -11,8 +11,17 @@ const SearchBar = () => {
       setQuery(e.target.value)
     }
 
+    const keys = ['id', 'title', 'firstName', 'lastName']
+
     const search = (data) => {
-      return data.filter((item) => item.firstName.toLowerCase().includes(query))  
+      return data.filter((item) =>
+      
+      // THIS CODE GIVES YOU THE ABILITY TO SEARCH ANY KEY:PROPERTIES OF THE USER 
+      keys.some((key) => item[key].toLowerCase().includes(query.toLowerCase()))
+
+      // THIS CODE MAKES YOU ABLE TO SEARCH ONLY THE FIRST NAME OF THE USER
+      // item.firstName.toLowerCase().includes(query.toLowerCase()))  
+      );
     }
 
   return (
