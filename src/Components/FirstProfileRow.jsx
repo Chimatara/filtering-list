@@ -10,7 +10,7 @@ const FirstProfileRow = ({data}) => {
            
            <div className='first-row'>
              <div className="left-profile">
-               <img className='profile1' src={item.picture} alt="profile picture" />
+               <img className='profile1' src={item.picture} alt="profile" />
                <span className="user-data">
                   <p className='user-id'>{item.id}</p>
                   <ul className='list'>

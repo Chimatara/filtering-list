@@ -1,3 +1,3 @@
 ## Hosted site link
 
-https://my-filtered-lists.netlify.app/
+https://new-filtered-list.netlify.app/
